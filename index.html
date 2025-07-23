@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>youtube clone</title>
+
+        <link rel="icon"
+            href="https://www.youtube.com/s/desktop/33ae93e9/img/logos/favicon_32x32.png"
+            sizes="32x32">
+
+        <link rel="stylesheet" href="style/global.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/tags.css">
+        <link rel="stylesheet" href="styles/shorts.css">
+
+    </head>
+
+    <body>
+        <!-- header -->
+
+        <div class="header">
+
+            <!-- logo & menu -->
+            <div class="logo-section">
+                <button class="general-btn"><img src="assets/icons/menu.svg"
+                        alt="menu" height="24px" width="24px"
+                        draggable="false"></button>
+                <a href="./">
+                    <img class="yt-logo" src="assets/icons/YouTube-Logo.svg"
+                        alt="YouTube-Logo" width="100%"
+                        draggable="false">
+                </a>
+
+            </div>
+
+            <!-- search -->
+            <div class="search-section">
+                <input class="yt-search" type="search" placeholder="Search">
+                <button class="search-btn">
+                    <img class="yt-search-icon" src="assets/icons/search.svg"
+                        alt="search" width="24px" height="24px"
+                        draggable="false">
+                </button>
+                <div class="mic-btn">
+                    <img src="assets/icons/mic.svg" alt="mic" width="24px"
+                        height="24px" draggable="false">
+                </div>
+            </div>
+
+            <!-- notif & profile -->
+            <div class="profile-section">
+                <div class="create-btn">
+                    <span class="add-icon"> + </span> Create
+                </div>
+                <div class="notification-container">
+                    <img class="notification-icon"
+                        src="assets/icons/notification-alarm-bell.svg"
+                        alt="notification-alarm-bell" width="24px" height="24px"
+                        draggable="false">
+                    <div class="notification-count">4</div>
+                </div>
+                <div class="profile-icon">M</div>
+            </div>
+
+        </div>
+
+        <!-- side bar -->
+        <div class="sidebar">
+
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/"> <img
+                        src="assets/icons/home.svg" alt="home"
+                        draggable="false"></a>
+
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="assets/icons/youtube-shorts.svg" alt="youtube-shorts"
+                    draggable="false">
+                <div>Shorts</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="assets/icons/menu_youtube_subscription.svg"
+                    alt="youtube_subscription" draggable="false">
+                <div>Subscription</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="assets/icons/profile-circle.svg" alt="profile"
+                    draggable="false">
+                <div>You</div>
+            </div>
+
+        </div>
+
+        <!-- tag -->
+        <div class="tag-section">
+            <div class="tags">All</div>
+            <div class="tags">Website</div>
+            <div class="tags">Live</div>
+            <div class="tags">Cats</div>
+            <div class="tags">Podcasts</div>
+            <div class="tags">AI</div>
+            <div class="tags">Music</div>
+            <div class="tags">Mixes</div>
+            <div class="tags">Comedy</div>
+            <div class="tags">Travel</div>
+            <div class="tags">Cooking</div>
+            <div class="tags">Sports</div>
+            <div class="tags">Science</div>
+            <div class="tags">Technology</div>
+            <div class="tags">Photography</div>
+            <div class="tags">Flutter</div>
+            <div class="tags">Gaming</div>
+            <div class="tags">Recently uploaded</div>
+            <div class="tags">Watched</div>
+            <div class="tags">New to you</div>
+        </div>
+
+        <!-- main -->
+        <!-- videos -->
+        <div class="video-grid">
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/tNMAFjzapOk?si=QM7c5CisntqI3AvS"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/kole_jain_tumb.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">5:34</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/ctgml-uf_rbgbXzc0neU8RS2ixlzSTq2bHIR1tVV1NJCS8nrm1fcR24nzs5Sv7pB_C2BTAgNww=s68-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">The Formula Behind Truly Captivating
+                            UI Sections</p>
+                        <p class="yt-channel">Kole Jain</p>
+                        <p class="yt-status">9.6K views &middot; 9 days ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/YoWdogtZRw8?si=mNcp3HqGCfDFZqEB"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/jeff_su_tumb.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">9:52</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/fHDMaIjQYS0XTz17AL-iIxdfyrGJfLliAJTQmJE931P1OareLsLIvFeJDcDtI3QpkD9HLnvI7Gw=s68-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">Learn 80% of Perplexity in under 10
+                            minutes!</p>
+                        <p class="yt-channel">Jeff Su &#10026;</p>
+                        <p class="yt-status">1M views &middot; 10 months ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/hpL2kwd-ii0?si=12ZQkoYBG-eApKGE"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/how_to_men_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">10:47</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/sYd3DP2-jvCYlKBFafTU6yGSE_g-16NxTuglyzT7YbYWuL1KR4QCn4o8cIumDGY7NzcBynkRvQ=s68-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">Google Material 3 Expressive -
+                            Everything's Updated!</p>
+                        <p class="yt-channel">HowToMen &#10026;</p>
+                        <p class="yt-status">114K views &middot; 2 days agoo</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/pDmEYRhyusU?si=V9V4fgh4NtOldVhP"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/brtyp_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">42:31</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.googleusercontent.com/ewPOzayZxqEs94HQPCL8s9iZOixYJW2OXuFo0fi6XlzMWc4pScDxlRFywKXcOXRppV7o8FTBmpk=s160-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">Part 1 | Introduction To Programming
+                            | C Programming Malayalam Tutorial</p>
+                        <p class="yt-channel">Brototype Malayalam &#10026;</p>
+                        <p class="yt-status">1.8M views &middot; 5 years ago</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="shorts-div">
+            <div class="shorts-header">
+                <div>
+                    <img src="assets/icons/youtube-shorts.svg" alt="shorts"
+                        draggable="false">
+                    <p>Shorts</p>
+                </div>
+                <button class="general-btn">⫶</button>
+            </div>
+            <div class="shorts-flex">
+              
+                <div class="shorts-content">
+                    <img
+                        src="https://i.ytimg.com/vi/yUQrKkkw2hY/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLALcVfgk4JF7QOvfWy5UG2hq4pyRQ"
+                        alt="Notification tutorial" />  
+                    <p class="title">What if your phone case held ants? #diy #shorts</p>
+                    <p class="shorts-meta">7M views</p>
+                </div>
+                <div class="shorts-content">
+                    <img
+                        src="https://i.ytimg.com/vi/ytfALTZAwGE/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBK5df17qhe_uqPsdXrRfzWyGfjJg"
+                        alt="Notification tutorial" />
+                    <p class="title">Why is there no Windows 9?</p>
+                    <p class="shorts-meta">773K views</p>
+                </div>
+                  <div class="shorts-content">
+                    <img
+                        src="https://i.ytimg.com/vi/ir5DtD_-wuM/oardefault.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLA29gaFXzCr2UmjfkDhedD1HAWrTA"
+                        alt="Notification tutorial" />
+                    <p class="title">🔔📱 Local Notifications • Flutter
+                        Tutorial</p>
+                    <p class="shorts-meta">14K views</p>
+                </div>
+                <div class="shorts-content">
+                    <img
+                        src="https://i.ytimg.com/vi/lyHrAj1hkWY/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLC2QyiPUP-gLb66Zyh5mXka0rCv_Q"
+                        alt="Notification tutorial" />  
+                    <p class="title">AMD Vs Nvidia Graphics Card #nvidia #amd #gpu #pcgaming #pcmemes #radeon #rtx #no1 #trending
+                    </p>
+                    <p class="shorts-meta">2.3M views</p>
+                </div>
+                <div class="shorts-content">
+                    <img
+                        src="https://i.ytimg.com/vi/JaCVPmyDf6s/oar2.jpg?sqp=-oaymwEoCJUDENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLBJPBCD0PpFD8uWXD8GT9bN6sGvMg"
+                        alt="Notification tutorial" />
+                    <p class="title">Creative 3D website creates an amazing
+                        brand experience</p>
+                    <p class="shorts-meta">33K views</p>
+                </div>
+                <div class="shorts-content">
+                    <div class="shorts-shimmer"></div>
+                </div>
+                <div class="shorts-content">
+                    <div class="shorts-shimmer"></div>
+                </div>
+                <div class="shorts-content">
+                    <div class="shorts-shimmer"></div>
+                </div>
+                
+                
+
+            </div>
+
+        </div>
+
+        <div class="video-grid">
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/pzBi1nwDn8U?si=x_IJc-i2e6R5hn8E"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/mr_beast_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">33:03</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.googleusercontent.com/nxYrc_1_2f77DoBadyxMTmv7ZpRZapHR5jbuYe7PlPd5cIRJxtNNEYyOC0ZsxaDyJJzXrnJiuDE=s160-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">Survive 100 Days Trapped In A
+                            Private Jet, Keep It</p>
+                        <p class="yt-channel">MrBeast &#10026;</p>
+                        <p class="yt-status">88M views &middot; 2 days ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/G3e-cpL7ofc?si=pukpNLQH6ri6HrYC"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/su_si_dev_tumb.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">6:31:23</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.googleusercontent.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s160-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">HTML & CSS Full Course - Beginner to
+                            Pro</p>
+                        <p class="yt-channel">SuperSimpleDev &#10026;</p>
+                        <p class="yt-status">15M views &middot; 3 years ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/e5w46zCY-Us?si=qWMCCFCo6-h3gyZq"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/beluga_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">2:51</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.googleusercontent.com/nGaGYCEnEzhYCNU2Yw3KDv6cuo-lwd7X92s2TDzrS8J6xTCkj8MxZjSeeod7qpsixU6soA0ZvPw=s160-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">When Your Phone Charges
+                            Overnight...</p>
+                        <p class="yt-channel">Beluga &#10026;</p>
+                        <p class="yt-status">26M views &middot; 3 years ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/rUUaNWD_wNs?si=cYpSuiI98qRsx8d5"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/dsign_with_arsh_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">11:33</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/Ps1OE8gAIEDZZ1flCrJaQ8OdbaGBjDkWk4B9h9h0phnH03mf9RbnV53LAME334savvHFgHeJWkY=s48-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">My Complete UI/UX Design Process for
+                            2025 (Step-by-Step)</p>
+                        <p class="yt-channel">DesignWithArash</p>
+                        <p class="yt-status">4.1k views &middot; 1 year ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/R3xoJt0tuiQ?si=BLDaWsXMIE8wLN5h"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/andyax_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">12:20</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/F3VxqpwYcmgkiriNeFfhWNku1P8ykYJlyxCmpM_pYkClrxld57slpHzf8aBSe2GEKlk7hAbSUQ=s48-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">The Next Step as a Filmmaker |
+                            Making a Film Company #1</p>
+                        <p class="yt-channel">Andyax &#10026;</p>
+                        <p class="yt-status">139K views &middot; 5 years ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/eegl7of4g-o?si=kvHfpq7Dxmx-rdvV"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/mitch_koko_tump.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">38:41</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.googleusercontent.com/ytc/AIdro_lG10P4m8LYfMtwEO1KRLthQrqWR2aDuGEAi4TVCVbJsJc=s160-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">👨🏽‍💻 Let's clone a dribbble
+                            design using FLUTTER ♡</p>
+                        <p class="yt-channel">Mitch Koko</p>
+                        <p class="yt-status">258K views &middot; 3 years ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/p1VEgpN1F_s?si=mlGK8MR4nfxYWUoT"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/g_earth_tumb.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">1:41</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/GckRgVjqJyCj3tY5shPmfxBMbE6xNxabJpJ4Vbs7gsM6FDz8fmPe6cwcZwR3t-0JwwZzEX6ATXY=s68-c-k-c0x00ffffff-no-rj"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">Celebrating 20 years of Google
+                            Earth</p>
+                        <p class="yt-channel">Google Earth &#10026;</p>
+                        <p class="yt-status">52K views &middot; 4 weeks ago</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="preview-card">
+                <div class="youtube-thumbnail-div">
+                    <a href="https://youtu.be/rFNv6-2ylb4?si=F0hwf4H7uYkIpsAZ"
+                        target="_blank" rel="noopener noreferrer">
+                        <img class="youtube-thumbnail"
+                            src="assets/images/pf_desuza_tumb.avif"
+                            alt="YouTube Thumbnail">
+                    </a>
+                    <div class="video-time">19:46</div>
+                </div>
+                <div class="yt-info-grid">
+                    <div class="yt-profile">
+                        <img class="yt-profile-pic"
+                            src="https://yt3.ggpht.com/CAr3mOBhTWxg_Mg9iTqUYAJS_Z3cPGX7xBGsxXrJzIBR6--TW8deXhbWJ7m1biGKWZXZ1oKss7Q=s176-c-k-c0x00ffffff-no-rj-mo"
+                            alt="yt-profile-pic" draggable="false">
+                    </div>
+                    <div class="yt-info">
+                        <p class="yt-title">This Game is Just Too Good🔥..!!Mad
+                            Max Malayalam Gameplay</p>
+                        <p class="yt-channel">Pf Desuza &#10026;</p>
+                        <p class="yt-status">45K views &middot; 7 days ago</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+    </body>
+
+</html>

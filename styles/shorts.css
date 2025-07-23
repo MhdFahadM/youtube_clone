@@ -1,0 +1,90 @@
+.shorts-div{
+
+    margin: 40px 0;
+    height: fit-content;
+    padding: 0;
+}
+.shorts-header{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0 0 12px;
+    margin-bottom: 12px;
+
+    /* background-color: rgba(137, 43, 226, 0.281); */
+   
+}
+.shorts-header button{
+    font-size: 24px;
+    font-weight: 200;
+}
+.shorts-header p{
+    display: inline-block;
+    font-size: 20px;
+    color: #0f0f0f;
+    font-weight: bold;  
+    transform: translateY(-4px);
+}
+.shorts-header img{
+   
+    height: 24px;
+    width: 24px;
+}
+
+
+/* Grid Container */
+.shorts-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    overflow-x:hidden;         /* enables horizontal scroll */
+    white-space: nowrap;      /* keeps children in a single line */
+    scrollbar-width: none;    /* hides scrollbar in Firefox */
+    /* flex-wrap: nowrap; */
+
+    /* padding: 16px; */
+}
+.shorts-content {
+    width: 220px;
+}
+.shorts-shimmer{
+    flex: 1;
+    height: 364px;
+    width: 217px;
+    background-color: #55555555;
+    border-radius: 8px;
+}
+
+/* Thumbnail */
+.shorts-content img {
+    height: 326px;
+    width: 217px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    object-fit: cover;
+}
+
+/* Title – fix selector and apply line clamping */
+.shorts-content .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;           /* show max 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Metadata */
+.shorts-meta {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.4;
+}
+
+

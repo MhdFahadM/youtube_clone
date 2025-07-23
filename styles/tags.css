@@ -1,0 +1,48 @@
+.tag-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+    padding: 12px 0;
+    position: fixed;
+    left: 96px;
+    right: 24px;
+    top: 56px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+
+    overflow-x: auto;         /* enables horizontal scroll */
+    white-space: nowrap;      /* keeps children in a single line */
+    scrollbar-width: none;    /* hides scrollbar in Firefox */
+    
+}
+/* For WebKit browsers (Chrome, Safari) to hide scrollbar */
+.tag-section::-webkit-scrollbar {
+    display: none;
+}
+.tags {
+    display: flex;
+    flex-shrink: 0;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: #0f0f0f;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+.tags:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* color: white; */
+}
+.tags:active {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.tag-section .tags:first-child {
+    background-color: #0f0f0f;
+    color: white;
+}
