@@ -1,0 +1,44 @@
+.ad-banner {
+    display: flex;
+    height: min-content;
+    flex: 1;
+    
+    flex-direction: column;
+    background-color: #0f0f0f;
+    margin-bottom: 40px;
+    background-image: url("../assets/images/ad-banner.jpeg");
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 24px ;
+    color: white;
+
+}
+
+.ad-banner .title {
+    max-width: 500px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.ad-banner .featured {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0 24px 0;
+}
+.ad-banner .t-c {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 12px 0;
+}
+
+.cta-btn{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+}

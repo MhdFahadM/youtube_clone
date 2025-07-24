@@ -6,11 +6,11 @@
     padding: 12px 0;
     position: fixed;
     left: 96px;
-    right: 24px;
+    right: 0px;
     top: 56px;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(24px);
+    background-color: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(34px);
     -webkit-backdrop-filter: blur(24px);
 
     overflow-x: auto;         /* enables horizontal scroll */
@@ -45,4 +45,9 @@
 .tag-section .tags:first-child {
     background-color: #0f0f0f;
     color: white;
+}
+@media (min-width : 768px) {
+    .tag-section{
+        left: 292px;
+    }
 }
