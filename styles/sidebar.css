@@ -6,9 +6,11 @@
     width: 72px;
     transition: width 0.3s;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: rgba(255, 255, 255, 1);
     backdrop-filter: blur(34px);
     -webkit-backdrop-filter: blur(24px);
+    scrollbar-width: thin;
+    scroll-behavior: auto;
 
 }
 
@@ -46,7 +48,6 @@ i {
     padding: 6px 24px;
     font-size: 16px;
     font-weight: bold;
-    /* background-color: brown; */
 }
 
 .eye {
@@ -54,15 +55,16 @@ i {
 }
 
 .sidebar span {
-    color: gray;
-    font-weight: 500;
+    color: #606060;
+    padding-right: 2px;
+    font-weight: 600;
     font-size: 12px;
     cursor: pointer;
+    
 }
 
 footer {
     padding-left: 24px;
-    ;
 }
 
 .copy-right {

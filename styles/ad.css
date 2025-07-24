@@ -2,7 +2,7 @@
     display: flex;
     height: min-content;
     flex: 1;
-    
+
     flex-direction: column;
     background-color: #0f0f0f;
     margin-bottom: 40px;
@@ -10,7 +10,7 @@
     background-position: start;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 48px 24px ;
+    padding: 48px 24px;
     color: white;
 
 }
@@ -20,18 +20,20 @@
     font-size: 28px;
     font-weight: bold;
 }
+
 .ad-banner .featured {
     font-size: 14px;
     font-weight: 500;
     margin: 4px 0 24px 0;
 }
+
 .ad-banner .t-c {
     font-size: 12px;
     font-weight: 400;
     margin: 0 0 12px 0;
 }
 
-.cta-btn{
+.cta-btn {
     width: fit-content;
     background-color: rgba(255, 255, 255, 0.15);
     border: none;
